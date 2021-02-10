@@ -1,0 +1,93 @@
+:root{
+    --one: #E1F2FE;
+    --two: #98D2EB;
+    --three: #B2B1CF;
+    --four: #77625C;
+    --five: #49392C;
+
+    --bodyWidth: 90vw;
+    --bodyPadding: 5vw;
+}
+
+body{
+    padding: var(--bodyPadding);
+    margin: 0; 
+    background-color: var(--one);
+}
+
+#pageTitle {
+    position: absolute;
+
+    top: 0;
+    left: var(--bodyPadding);
+
+    font-size: min(8vh, 6vw);
+    color: var(--four);
+}
+
+#pageSubtitle {
+    position: absolute;
+    top: min(11vh, 9vw);
+    left: var(--bodyPadding);
+
+    color: var(--four);
+    font-size: min(4vh, 3.25vw);
+}
+
+#attentionText {
+    font-size: min(2.8vh, 2.5vw);
+    color: var(--five);
+    
+    position: absolute;
+    top: min(22vh, 20.25vw);
+    left: var(--bodyPadding);
+    right: var(--bodyPadding);
+}
+
+ul {
+    list-style-type: square;
+}
+
+.listingText {
+    font-size: min(2.8vh, 2.5vw);
+    color: var(--five);
+}
+
+.left {
+    left: var(--bodyPadding);
+}
+
+.right {
+    right: var(--bodyPadding);
+}
+
+.halfCell {
+    position: absolute;
+    top: min(42vh, 40.25vw);
+
+    width: calc(var(--bodyWidth)/2 - min(8vw, 8vh));
+
+    height: min(20vh, 20vw);
+
+    background-color: var(--two);
+    color: var(--five);
+
+    padding: min(2vw, 2vh);
+
+    border: min(.4vw, .4vh) solid var(--three);
+}
+
+.wideDiv {
+    padding: min(4vw, 4vh);
+    border: min(.4vw, .4vh) solid var(--three);
+    font-size: min(2.8vh, 2.5vw);
+
+    position: absolute;
+    left: var(--bodyPadding);
+    right: var(--bodyPadding);
+    top: min(70vh, 70.25vw);
+}
+
+.eyecatching {
+    background-color: var(--four);
+}
