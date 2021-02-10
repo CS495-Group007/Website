@@ -8,7 +8,7 @@
     --bodyWidth: 90vw;
     --bodyPadding: 5vw;
 }
- 
+
 body{
     padding: var(--bodyPadding);
     margin: 0; 
