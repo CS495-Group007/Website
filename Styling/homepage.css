@@ -10,7 +10,7 @@
 }
  
 body{
-    padding: var(--bodyPadding), var(--bodyPadding), 5%, var(--bodyPadding);
+    padding: var(--bodyPadding), var(--bodyPadding), 200px, var(--bodyPadding);
     margin: 0; 
     background-color: var(--one);
 }
