@@ -81,7 +81,7 @@ ul {
     padding: min(4vw, 4vh);
     border: min(.4vw, .4vh) solid var(--three);
     font-size: min(2.8vh, 2.5vw);
-    margin-bottom: 5%;
+    margin-bottom: 20px;
 
     position: absolute;
     left: var(--bodyPadding);
