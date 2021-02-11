@@ -78,7 +78,7 @@ ul {
 }
 
 .wideDiv {
-    padding: min(4vw, 4vh);
+    padding: 4%;
     border: min(.4vw, .4vh) solid var(--three);
     font-size: min(2.8vh, 2.5vw);
 
