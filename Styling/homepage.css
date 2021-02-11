@@ -13,6 +13,8 @@ body{
     padding: var(--bodyPadding);
     margin: 0; 
     background-color: var(--one);
+
+    padding-bottom: 15vh;
 }
 
 #pageTitle {
@@ -86,8 +88,19 @@ ul {
     left: var(--bodyPadding);
     right: var(--bodyPadding);
     top: min(70vh, 70.25vw);
+
+    margin-bottom: 10vh;
 }
 
 .eyecatching {
     background-color: var(--four);
+    color: var(--one);
+}
+
+#whitespace { 
+    height: 10vh;
+    position: absolute;
+    left: var(--bodyPadding);
+    right: var(--bodyPadding);
+    top: min(120vh, 120.25vw);
 }
