@@ -145,6 +145,10 @@ ul {
     top: min(125vh, 125vw);
 }
 
+#SprintTwo {
+    top: min(195vh, 195vw);
+}
+
 .eyecatching {
     background-color: var(--four);
     color: var(--one);
@@ -160,5 +164,5 @@ ul {
     position: absolute;
     left: var(--bodyPadding);
     right: var(--bodyPadding);
-    top: min(195vh, 195.25vw);
+    top: min(265vh, 265.25vw);
 }
