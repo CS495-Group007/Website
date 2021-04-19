@@ -201,3 +201,9 @@ ul {
 .centerIt {
     text-align: center;
 }
+
+#justInCase {
+    font-size: min(3vh, 3vw);
+    margin-top: min(3vh, 3vw);
+    margin-bottom: min(3vh, 3vw);
+}
