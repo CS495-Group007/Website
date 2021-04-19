@@ -191,5 +191,13 @@ ul {
 }
 
 #processVideo {
-    width: 100%;
+    text-align: center;
+    width: 88vw;
+    height: 49.5vw;
+    /* width: 100%;
+    height: 100%; */
+}
+
+.centerIt {
+    text-align: center;
 }
